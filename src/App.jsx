@@ -26,7 +26,7 @@ function App() {
 
   return (
     <>
-      <h1>Wordle App</h1>
+      <h1>  Wordle App</h1>
       <p>Guess the five-letter word:</p>
       <p>{word}</p>
       {/* Add your game logic and UI components here */}

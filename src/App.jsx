@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import cors from "cors"
+import Wordle from "./components/Wordle";
 import "./App.css";
 function App() {
   const [solution,setSolutions] = useState(null)
@@ -19,7 +19,7 @@ function App() {
     <>
       <h1>  Wordle App</h1>
       <p>Guess the five-letter word:</p>
-      {solution && <div>the solution is : {solution.word}</div>}
+      {solution && <Wordle solution={solution}/>}
     </>
   );
 }

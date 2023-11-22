@@ -17,8 +17,7 @@ function App() {
 
   return (
     <>
-      <h1>  Wordle App</h1>
-      <p>Guess the five-letter word:</p>
+      <h1>Wordle App</h1>
       {solution && <Wordle solution={solution}/>}
     </>
   );
